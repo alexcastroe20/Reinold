@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    font-weight: 400 !important;
+    font-size: 13px;
+    background-color: #efeae6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond';
+    font-weight: normal;
+}
+
+#title {
+    text-align: center
+}
+#title img {
+    width: 50%;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+    border-radius: 3px;
+    width: fit-content;
+    padding: 8px 30px;
+    position: relative;
+    float:right;
+    background-color: #68252D;
+    color: white;
+    margin: 0 2px 0 2px;
+    font-size: 12px;
+}
+
+.button.active {
+    background-color: #68252D;
+    color: white;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+#container {
+    width:50%;
+    margin:auto;
+    padding: 4em;
+    background-color: #968981;
+    border-radius:3px;
+    color: #FFFFFF;
+    box-shadow: 5px 5px 5px #888;
+    background-image: url('https://reinold.pixelero.net/wp-content/uploads/2022/03/fondo.png');
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+}
+
+ul.opciones {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.opciones li {
+    width: 48%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 13px;
+    border-radius: 3px;
+    backdrop-filter: blur(10px);
+}
