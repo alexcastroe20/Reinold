@@ -9,9 +9,10 @@ body {
     background-color: #efeae6;
 }
 
-h1 {
+#title h1 {
     text-align: center;
     font-size: 50px;
+    padding: 0 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,16 +20,26 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+hr {
+    margin: 30px 0;
+    border-width: 1px 0 0 0;
+    border-color: rgba(255, 255, 255, 0.9);
+}
+
 #title {
     text-align: center
 }
 #title img {
-    width: 50%;
+    width: 100%;
 }
 
 #quiz {
     text-indent: 10px;
     display:none;
+}
+
+#questionario {
+    padding: 4em;
 }
 
 .button {
@@ -61,7 +72,7 @@ button {
 #container {
     width:50%;
     margin:auto;
-    padding: 4em;
+    padding: 0;
     background-color: #968981;
     border-radius:3px;
     color: #FFFFFF;
